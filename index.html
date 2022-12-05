@@ -22,28 +22,30 @@
             <form action="get" class="userinputs">
                 <div class="frstrow">
                     <label for="firstname">Firt Name:</label>
-                    <input type="text" name="firstname" id="firstname">
+                    <input type="text" name="firstname" id="firstname" required>
 
                     <label for="username">Username:</label>
-                    <input type="text" name="username" id="username">
+                    <input type="text" name="username" id="username" required>
                 </div>
 
                 <div class="scndrow">
                     <label for="lastname">Last Name:</label>
-                    <input type="text" name="lastname" id="lastname">
+                    <input type="text" name="lastname" id="lastname" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
 
                 <div class="thrdrow">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" required>
 
                     <label for="confpassword">Confirm password</label>
-                    <input type="password" name="confpassword" id="confpassword">
+                    <input type="password" name="confpassword" id="confpassword" required>
                 </div>
+                <button type="submit" class="confirm">Confirm</button>
             </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>
