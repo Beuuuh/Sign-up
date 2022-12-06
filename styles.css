@@ -104,3 +104,27 @@ input:focus{
     outline: none;
     border: 2px solid var(--color);
 }
+
+button {
+    border-radius: 50px;
+    background-color: #663DCC;
+    color: var(--font-color);
+    border: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+button:hover {
+    color: #663DCC;
+    background-color: var(--font-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--font-color);
+}
