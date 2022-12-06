@@ -1,9 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-    --normal-background: rgb(231, 233, 240);
-    --forms-background: rgb(245, 246, 250);
-    --left-background: url(./photo-1585202900225-6d3ac20a6962.avif);
+    --font-color: rgb(231, 233, 240);
+    --left-background: url(./2219392.jpg);
     --header-font: 'Quicksand', sans-serif;
     --paragraph-font: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image {
+    background-image: var(--left-background);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    background-color: rgba(37, 31, 64, 0.6);
+    color: var(--font-color);
+}
+
+.forms {
+    width: 60vw;
+    background-color: #191330;
 }
