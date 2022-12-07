@@ -128,3 +128,80 @@ a {
 a:hover{
     color: var(--font-color);
 }
+
+@media only screen and (max-width: 670px)  {
+    .main {
+        flex-flow: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .image {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        background-size: 100vw;
+    }
+
+    .logo {
+        width: 100vw;
+        position: static;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .forms {
+        width: auto;
+        height: auto;
+    }
+
+    .text {
+        width: auto;
+        margin-top: 30px;
+
+    }
+
+    .image {
+        padding: 10px 20px;
+    }
+
+    .last-paragraph {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .userinputs {
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+
+    .input {
+        text-align: left;
+        width: auto;
+        font-size: 0.9em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        font-size: 0.9rem;
+        height: 1.5rem;
+        width: 70vw;
+    }
+
+    .login {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    button {
+        margin-bottom: 0px;
+        width: 60vw;
+        padding: 10px 5px;
+    }
+
+}
